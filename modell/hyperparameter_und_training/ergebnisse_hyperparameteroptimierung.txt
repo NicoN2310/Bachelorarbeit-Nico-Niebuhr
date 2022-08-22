@@ -1,0 +1,78 @@
+Beste Genauigkeit: 0.8373205741626795 (LogLoss - TPE - 150 Durchläufe (Temp) - HILBERT)
+
+- Durch manuelles Testen: Lernrate scheint am meisten das Ergebnis zu beeinflussen; begrenze nach oben auf 0.3
+- Hoher MCC bei LogLoss-Optimierung
+- MCC scheint Probleme zu verursachen; Optimierung führt auf gleiches Ergebnis - keine bessere Möglichkeit?
+
+===================================================================================================================
+LogLoss - TPE - 200 Durchläufe
+
+{'learning_rate': 0.9876169276361937, 'max_delta_step': 3.525361812448165, 'max_depth': 15.0, 'min_child_weight': 1.0434289607499128, 'num_rounds': 906.0, 'reg_alpha': 0.3263020491586569, 'reg_lambda': 3.077446362153003, 'weight': 0.10317770359988468}
+
+Accuracy on test set: 0.8181818181818182, ROC-AUC score for test set: 0.8518400763805289, MCC: 0.5322815870190946
+Sequence identity 60-80%, Accuracy: 0.8438524590163935, MCC: 0.6102113078382569 
+
+Sequence identity 40-60%, Accuracy: 0.82487818859272, MCC: 0.5530516678290889
+
+Sequence identity <40%, Accuracy: 0.7983697983697984, MCC: 0.4720593871651939
+
+===================================================================================================================
+LogLoss - TPE - 150 Durchläufe (Temp)
+
+{'learning_rate': 0.7827049753153807, 'max_delta_step': 3.779816842514353, 'max_depth': 15.0, 'min_child_weight': 1.1329467674135312, 'num_rounds': 819.0, 'reg_alpha': 0.08251373714914086, 'reg_lambda': 3.515687988097212, 'weight': 0.2626201894908431}
+
+Accuracy on test set: 0.8373205741626795, ROC-AUC score for test set: 0.8612661234258321, MCC: 0.5597465444120341
+Sequence identity 60-80%, Accuracy: 0.8635245901639345, MCC: 0.6428212541758922
+
+Sequence identity 40-60%, Accuracy: 0.8383490971625107, MCC: 0.5744119665821804
+
+Sequence identity <40%, Accuracy: 0.8215358215358215, MCC: 0.5024113084018786
+
+===================================================================================================================
+LogLoss - TPE - 100 Durchläufe (Temp)
+
+{'learning_rate': 0.9189620405342076, 'max_delta_step': 3.765929527547236, 'max_depth': 15.0, 'min_child_weight': 3.80302135564452, 'num_rounds': 498.0, 'reg_alpha': 0.10850816561483789, 'reg_lambda': 3.9826868884097752, 'weight': 0.19765279921541257}
+
+Accuracy on test set: 0.8167745567126372, ROC-AUC score for test set: 0.8454491300099065, MCC: 0.5211582564276697
+Sequence identity 60-80%, Accuracy: 0.8459016393442623, MCC: 0.6082946496193828
+
+Sequence identity 40-60%, Accuracy: 0.818859271997707, MCC: 0.5338601969182876
+
+Sequence identity <40%, Accuracy: 0.799013299013299, MCC: 0.4627707189738328
+
+
+===================================================================================================================
+LogLoss - TPE - 50 Durchläufe (Temp)
+
+{'learning_rate': 0.8540824703052108, 'max_delta_step': 3.8998811315170725, 'max_depth': 9.0, 'min_child_weight': 2.4373594209477174, 'num_rounds': 668.0, 'reg_alpha': 0.6297296757101909, 'reg_lambda': 4.909857682993391, 'weight': 0.16104888651621746}
+
+Accuracy on test set: 0.8228726897457548, ROC-AUC score for test set: 0.8557382363501698, MCC: 0.5417349701075695
+Sequence identity 60-80%, Accuracy: 0.8594262295081967, MCC: 0.6439547542794875
+
+Sequence identity 40-60%, Accuracy: 0.8073946689595872, MCC: 0.5170914431262658 
+
+Sequence identity <40%, Accuracy: 0.8142428142428142, MCC: 0.5051798245692688
+
+===================================================================================================================
+MCC - Random - 344 Durchläufe (Das gleiche Ergebnis wie bei 145 Durchläufen???)
+
+{'learning_rate': 0.03214030570602307, 'max_delta_step': 0.36662438223933114, 'max_depth': 10.0, 'min_child_weight': 1.5093557977721401, 'num_rounds': 61.0, 'reg_alpha': 1.3167068759149587, 'reg_lambda': 1.3499763946639214, 'weight': 0.1990442381429972}
+
+Accuracy on test set: 0.35988366638521435, ROC-AUC score for test set: 0.7185751336755902, MCC: 0.1670949756275493
+Sequence identity 60-80%, Accuracy: 0.3368852459016393, MCC: 0.15747328843343697 
+
+Sequence identity 40-60%, Accuracy: 0.3456577815993121, MCC: 0.15638856511856863
+
+Sequence identity <40%, Accuracy: 0.38202488202488205, MCC: 0.1793257919031964
+
+===================================================================================================================
+MCC - Random - 145 Durchläufe
+
+{'learning_rate': 0.03214030570602307, 'max_delta_step': 0.36662438223933114, 'max_depth': 10.0, 'min_child_weight': 1.5093557977721401, 'num_rounds': 61.0, 'reg_alpha': 1.3167068759149587, 'reg_lambda': 1.3499763946639214, 'weight': 0.1990442381429972}
+
+Accuracy on test set: 0.35988366638521435, ROC-AUC score for test set: 0.7185751336755902, MCC: 0.1670949756275493
+Sequence identity 60-80%, Accuracy: 0.3368852459016393, MCC: 0.15747328843343697
+
+Sequence identity 40-60%, Accuracy: 0.3456577815993121, MCC: 0.15638856511856863
+
+Sequence identity <40%, Accuracy: 0.38202488202488205, MCC: 0.1793257919031964
