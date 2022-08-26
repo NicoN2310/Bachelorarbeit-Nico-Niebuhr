@@ -1,0 +1,105 @@
+{
+    'learning_rate': 0.6827049753153807, 
+    'max_delta_step': 2.779816842514353, 
+    'max_depth': 12.0, 
+    'min_child_weight': 1.2329467674135312, 
+    'num_rounds': 669.0, 
+    'reg_alpha': 0.38251373714914086, 
+    'reg_lambda': 3.615687988097212, 
+    'weight': 0.2626201894908431
+}
+Accuracy on test set: 0.8393845576508115, ROC-AUC score for test set: 0.8665154439452571, MCC: 0.5693387451223831
+Sequence identity 60-80%, Accuracy: 0.8774590163934426, MCC: 0.6789469812675618
+Sequence identity 40-60%, Accuracy: 0.8360561765548867, MCC: 0.5733263262264015
+Sequence identity <40%, Accuracy: 0.8206778206778207, MCC: 0.5055880431551805
+
+{
+    'learning_rate': 0.7827049753153807, 
+    'max_delta_step': 2.779816842514353, 
+    'max_depth': 12.0, 
+    'min_child_weight': 1.2329467674135312, 
+    'num_rounds': 669.0, 
+    'reg_alpha': 0.38251373714914086, 
+    'reg_lambda': 3.615687988097212, 
+    'weight': 0.2626201894908431
+}
+Accuracy on test set: 0.839572192513369, ROC-AUC score for test set: 0.8633107089857113, MCC: 0.5691390899300179
+Sequence identity 60-80%, Accuracy: 0.864344262295082, MCC: 0.6505281125863803
+Sequence identity 40-60%, Accuracy: 0.8406420177701347, MCC: 0.5784167095308913
+Sequence identity <40%, Accuracy: 0.8243243243243243, MCC: 0.5159651814971054
+
+{
+    'learning_rate': 0.8827049753153807, 
+    'max_delta_step': 2.779816842514353, 
+    'max_depth': 12.0, 
+    'min_child_weight': 1.2329467674135312, 
+    'num_rounds': 669.0, 
+    'reg_alpha': 0.38251373714914086, 
+    'reg_lambda': 3.615687988097212, 
+    'weight': 0.2626201894908431
+}
+Accuracy on test set: 0.8355380429683835, ROC-AUC score for test set: 0.8574528036092433, MCC: 0.5595821591347679
+Sequence identity 60-80%, Accuracy: 0.8688524590163934, MCC: 0.6631727519201234 
+Sequence identity 40-60%, Accuracy: 0.8349097162510748, MCC: 0.5675106025029832
+Sequence identity <40%, Accuracy: 0.8172458172458172, MCC: 0.49551044007562783
+
+{
+    'learning_rate': 0.8027049753153807, 
+    'max_delta_step': 2.779816842514353, 
+    'max_depth': 12.0, 
+    'min_child_weight': 1.2329467674135312, 
+    'num_rounds': 669.0, 
+    'reg_alpha': 0.38251373714914086, 
+    'reg_lambda': 3.615687988097212, 
+    'weight': 0.2626201894908431
+}
+Accuracy on test set: 0.8328173374613003, ROC-AUC score for test set: 0.8568837970172531, MCC: 0.5505473234468039
+Sequence identity 60-80%, Accuracy: 0.8618852459016394, MCC: 0.6454430936505008 
+Sequence identity 40-60%, Accuracy: 0.8291774147320149, MCC: 0.5493128584786006 
+Sequence identity <40%, Accuracy: 0.8185328185328186, MCC: 0.4976012548729705
+
+{
+    'learning_rate': 0.7327049753153807, 
+    'max_delta_step': 2.779816842514353, 
+    'max_depth': 12.0, 
+    'min_child_weight': 1.2329467674135312, 
+    'num_rounds': 669.0, 
+    'reg_alpha': 0.38251373714914086, 
+    'reg_lambda': 3.615687988097212, 
+    'weight': 0.2626201894908431
+}
+Accuracy on test set: 0.838164931044188, ROC-AUC score for test set: 0.8624767121028217, MCC: 0.5639805393853714
+Sequence identity 60-80%, Accuracy: 0.8672131147540983, MCC: 0.6541839418508614 
+Sequence identity 40-60%, Accuracy: 0.8372026368586988, MCC: 0.5704951668181475
+Sequence identity <40%, Accuracy: 0.821964821964822, MCC: 0.5075408442297458
+
+{
+    'learning_rate': 0.7027049753153807, 
+    'max_delta_step': 2.779816842514353, 
+    'max_depth': 12.0, 
+    'min_child_weight': 1.2329467674135312, 
+    'num_rounds': 669.0, 
+    'reg_alpha': 0.38251373714914086, 
+    'reg_lambda': 3.615687988097212, 
+    'weight': 0.2626201894908431
+}
+Accuracy on test set: 0.8409794539825499, ROC-AUC score for test set: 0.8634245885402148, MCC: 0.5750002078692477
+Sequence identity 60-80%, Accuracy: 0.8696721311475409, MCC: 0.6621205486190395 
+Sequence identity 40-60%, Accuracy: 0.8380624820865578, MCC: 0.5790179927239091
+Sequence identity <40%, Accuracy: 0.8262548262548263, MCC: 0.5224074171601557
+
+{
+    'learning_rate': 0.21205346352424176, 
+    'max_delta_step': 2.1132866218907003, 
+    'max_depth': 8, 
+    'min_child_weight': 1.9215635292274276, 
+    'num_rounds': 779.304784864205, 
+    'reg_alpha': 0.6126926526952088, 
+    'reg_lambda': 3.238607289889072, 
+    'weight': 0.24922052982680407
+}
+
+Accuracy on test set: 0.8426681677455671, ROC-AUC score for test set: 0.8718909777110858, MCC: 0.5877570218229363
+Sequence identity 60-80%, Accuracy: 0.8651639344262295, MCC: 0.6612345030743103 
+Sequence identity 40-60%, Accuracy: 0.8394955574663228, MCC: 0.590612755012531 
+Sequence identity <40%, Accuracy: 0.8324753324753325, MCC: 0.5464974695972373

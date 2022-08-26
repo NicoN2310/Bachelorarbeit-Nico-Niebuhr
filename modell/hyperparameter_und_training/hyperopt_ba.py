@@ -54,14 +54,14 @@ def main():
     # Set parameters and stuff
     print(f"\n- Create values for hyperparameter tuning ({datetime.now()})\n")
     space = {
-         'learning_rate': hp.uniform("learning_rate", 0.01, 0.5),
-         'max_delta_step': hp.uniform("max_delta_step", 0.0, 5.0),
-         'max_depth': hp.choice("max_depth", [5,6,7,8,9,10,11,12,13,14,15]),
-         'min_child_weight': hp.uniform("min_child_weight", 0.1, 15.0),
-         'num_rounds': hp.uniform("num_rounds", 200, 600),
-         'reg_alpha': hp.uniform("reg_alpha", 0.0, 5.0),
-         'reg_lambda': hp.uniform("reg_lambda", 0.0, 5.0),
-         'weight': hp.uniform("weight", 0.0, 0.33),
+         'learning_rate': hp.uniform("learning_rate", 0.2, 0.4),
+         'max_delta_step': hp.uniform("max_delta_step", 1.5, 2.5),
+         'max_depth': hp.choice("max_depth", [8,9,10,11,12]),
+         'min_child_weight': hp.uniform("min_child_weight", 1.0, 2.0),
+         'num_rounds': hp.uniform("num_rounds", 400, 600),
+         'reg_alpha': hp.uniform("reg_alpha", 0.2, 1.0),
+         'reg_lambda': hp.uniform("reg_lambda", 3.0, 5.0),
+         'weight': hp.uniform("weight", 0.2, 0.4),
          }
     space['tree_method'] = "gpu_hist"
     space['objective'] = 'binary:logistic'

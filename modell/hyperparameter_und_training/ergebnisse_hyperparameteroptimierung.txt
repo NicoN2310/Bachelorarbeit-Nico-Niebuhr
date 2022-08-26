@@ -1,5 +1,17 @@
+Daten von Alex Parametern:
+{'learning_rate': 0.31553117247348733, 'max_delta_step': 1.7726044219753656, 'max_depth': 10, 'min_child_weight': 1.3845040588450772, 'num_rounds': 542.68325188584106, 'reg_alpha': 0.531395259755843, 'reg_lambda': 3.744980563764689, 'weight': 0.26187490421514203}
+
+Accuracy on test set: 0.8398521113057015, ROC-AUC score for test set: 0.8582313858686015, MCC: 0.5673069301203936
+Sequence identity 60-80%, Accuracy: 0.8461873638344226, MCC: 0.6140625864438229 
+
+Sequence identity 40-60%, Accuracy: 0.8399518652226233, MCC: 0.5777100133860964 
+
+Sequence identity <40%, Accuracy: 0.8193774660236738, MCC: 0.5039163841394687 
+===================================================================================================================
+===================================================================================================================
 Beste Genauigkeit: 0.8373205741626795 (LogLoss - TPE - 150 Durchläufe (Temp) - HILBERT)
 
+- Schlechtere Genauigkeit - versuche um Werte von Alex zu suchen...
 - Durch manuelles Testen: Lernrate scheint am meisten das Ergebnis zu beeinflussen; begrenze nach oben auf 0.3
 - Hoher MCC bei LogLoss-Optimierung
 - MCC scheint Probleme zu verursachen; Optimierung führt auf gleiches Ergebnis - keine bessere Möglichkeit?
