@@ -12,7 +12,7 @@ Der Inhalt des Ordners "/create_train_test/" stammt von meinem Betreuer Alexande
 | /create_data/create_data.R                                                                 | Skript zur Erstellung einer Datenbank durch TCDB                                                         |
 | /create_train_test/Preprocessing data-V3.ipynb                                             | Jupyter-Notebook von Alexander Kroll zur Erstellung <br>der Trainings- und Testdaten                     |
 | /hyperparameter_und_training/hyperopt_ba.py<br>/hyperparameter_und_training/hyperopt_ba.sh | Python-Skript für die Hyperparameter-Optimierung, <br>gemeinsam mit einem Skript für das HILBERT der HHU |
-| /hyperparameter_und_training/test.ipynb                                                    | Jupyter-Notebook zur Analyse der Leistung des Modells                                                    |
+| /hyperparameter_und_training/analyse.ipynb                                                 | Jupyter-Notebook zur Analyse der Leistung des Modells                                                    |
 <br>
 
 ## Übersicht Dateien für Datenbank:
